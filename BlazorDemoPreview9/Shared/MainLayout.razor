@@ -1,0 +1,32 @@
+﻿@inherits Microsoft.AspNetCore.Components.LayoutComponentBase
+@using BlazorDemoPreview9.Data
+@inject BasketService basketService
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+        <a href="/Basket">
+            <i class="fas fa-shopping-cart"></i> @basketService.ItemsInBasket
+    </a>
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
+@code  {
+
+    protected override void OnInitialized()
+    {
+        basketService.BasketHasChanged += BasketChanged;
+    }
+
+    private void BasketChanged(object sender, EventArgs e)
+    {
+        StateHasChanged();
+    }
+}
+

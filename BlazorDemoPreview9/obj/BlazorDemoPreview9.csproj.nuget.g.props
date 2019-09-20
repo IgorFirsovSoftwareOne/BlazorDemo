@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Igor.Firsov\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.3.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\.gitignore" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\.gitignore')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>wwwroot\lib\dx-blazor\.gitignore</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\dx-blazor.cjs.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\dx-blazor.cjs.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\dx-blazor.cjs.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\dx-blazor.cjs.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\dx-blazor.css" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\dx-blazor.css')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\dx-blazor.css</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\dx-blazor.css</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\dx-blazor.esm.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\dx-blazor.esm.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\dx-blazor.esm.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\dx-blazor.esm.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\dx-blazor.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\dx-blazor.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\dx-blazor.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\dx-blazor.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-charts-93b168dd.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-charts-93b168dd.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-charts-93b168dd.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-charts-93b168dd.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-chunk-103238e5.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-chunk-103238e5.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-chunk-103238e5.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-chunk-103238e5.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-chunk-3fd5dedb.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-chunk-3fd5dedb.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-chunk-3fd5dedb.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-chunk-3fd5dedb.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-chunk-c27cc8ab.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-chunk-c27cc8ab.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-chunk-c27cc8ab.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-chunk-c27cc8ab.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-chunk-f6404a26.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-chunk-f6404a26.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-chunk-f6404a26.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-chunk-f6404a26.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-combobox-7a913ef4.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-combobox-7a913ef4.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-combobox-7a913ef4.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-combobox-7a913ef4.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-devexpress.viz-7df80a2d.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-devexpress.viz-7df80a2d.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-devexpress.viz-7df80a2d.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-devexpress.viz-7df80a2d.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-dom-utils-bcbaf851.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-dom-utils-bcbaf851.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-dom-utils-bcbaf851.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-dom-utils-bcbaf851.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-dropdowns-54563342.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-dropdowns-54563342.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-dropdowns-54563342.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-dropdowns-54563342.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-dx-blazor-f68be70a.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-dx-blazor-f68be70a.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-dx-blazor-f68be70a.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-dx-blazor-f68be70a.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-form-layout-1044f7eb.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-form-layout-1044f7eb.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-form-layout-1044f7eb.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-form-layout-1044f7eb.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-grid-f6bb46dc.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-grid-f6bb46dc.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-grid-f6bb46dc.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-grid-f6bb46dc.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-popup-utils-0f4415ca.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-popup-utils-0f4415ca.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-popup-utils-0f4415ca.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-popup-utils-0f4415ca.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-scheduler-dec8ee5a.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\cjs-scheduler-dec8ee5a.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\cjs-scheduler-dec8ee5a.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\cjs-scheduler-dec8ee5a.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-charts-35ee59a3.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-charts-35ee59a3.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-charts-35ee59a3.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-charts-35ee59a3.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-chunk-5ae0b2a0.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-chunk-5ae0b2a0.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-chunk-5ae0b2a0.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-chunk-5ae0b2a0.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-chunk-5bc3348b.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-chunk-5bc3348b.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-chunk-5bc3348b.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-chunk-5bc3348b.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-chunk-79b76668.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-chunk-79b76668.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-chunk-79b76668.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-chunk-79b76668.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-chunk-d9927197.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-chunk-d9927197.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-chunk-d9927197.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-chunk-d9927197.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-combobox-04a9e516.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-combobox-04a9e516.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-combobox-04a9e516.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-combobox-04a9e516.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-devexpress.viz-5d8db4bd.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-devexpress.viz-5d8db4bd.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-devexpress.viz-5d8db4bd.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-devexpress.viz-5d8db4bd.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-dom-utils-039553e2.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-dom-utils-039553e2.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-dom-utils-039553e2.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-dom-utils-039553e2.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-dropdowns-ac548de9.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-dropdowns-ac548de9.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-dropdowns-ac548de9.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-dropdowns-ac548de9.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-dx-blazor-40402e2f.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-dx-blazor-40402e2f.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-dx-blazor-40402e2f.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-dx-blazor-40402e2f.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-form-layout-de634975.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-form-layout-de634975.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-form-layout-de634975.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-form-layout-de634975.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-grid-340ea8f3.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-grid-340ea8f3.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-grid-340ea8f3.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-grid-340ea8f3.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-popup-utils-56873ac8.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-popup-utils-56873ac8.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-popup-utils-56873ac8.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-popup-utils-56873ac8.js</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-scheduler-c77af7e6.js" Condition="Exists('$(NuGetPackageRoot)devexpress.blazor\0.3.1\contentFiles\any\any\wwwroot\lib\dx-blazor\modules\esm-scheduler-c77af7e6.js')">
+      <NuGetPackageId>DevExpress.Blazor</NuGetPackageId>
+      <NuGetPackageVersion>0.3.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>wwwroot\lib\dx-blazor\modules\esm-scheduler-c77af7e6.js</TargetPath>
+      <DestinationSubDirectory>wwwroot\lib\dx-blazor\modules\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>wwwroot\lib\dx-blazor\modules\esm-scheduler-c77af7e6.js</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\3.0.0-preview9.19423.6\build\netcoreapp2.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\3.0.0-preview9.19423.6\build\netcoreapp2.0\Microsoft.EntityFrameworkCore.Design.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Igor.Firsov\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.3</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Igor.Firsov\.nuget\packages\microsoft.entityframeworkcore.tools\3.0.0-preview9.19423.6</PkgMicrosoft_EntityFrameworkCore_Tools>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿@page "/"
+@namespace BlazorDemoPreview9.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="lib/dx-blazor/dx-blazor.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/9e26372098.js" crossorigin="anonymous"></script>
+    <script src="lib/dx-blazor/dx-blazor.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blazor-Demo</title>
+    <base href="~/" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <app>
+        @(await Html.RenderComponentAsync<App>(RenderMode.ServerPrerendered))
+    </app>
+
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>

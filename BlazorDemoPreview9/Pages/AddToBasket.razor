@@ -1,0 +1,24 @@
+﻿@page "/AddToBasket"
+@using BlazorDemoPreview9.Data
+@using Microsoft.AspNetCore.Components
+@inject BasketService basketService
+
+<input class="quantityInput" type="number" @bind="_quantity" min="1" max="@BasketProduct.Quantity" />
+<button class="secondaryBtn" @onclick="Add">Add</button>
+
+
+@code {
+
+    [Parameter]
+    public Product BasketProduct { get; set; }
+
+    private int _quantity = 1;
+
+    private void Add()
+    {
+        basketService.AddItem(BasketProduct, _quantity);
+    }
+}
+
+
+

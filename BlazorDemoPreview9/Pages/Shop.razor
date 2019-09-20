@@ -1,0 +1,73 @@
+﻿@page "/shop"
+@using BlazorDemoPreview9.Data
+@using System.Data
+@using BlazorDemoPreview9.Model
+@inject ProductService productService
+@inject BasketService basketService
+@inject AddToBasket addToBasket
+
+
+<h1>Shop</h1>
+
+@if (products == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <EditForm Model="@typeof(SearchModel)" OnValidSubmit="@StartSearch">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <InputText class="searchBox" placeholder="Search..." @bind-Value="@searchModel.SearchString"  />
+
+    </EditForm>
+
+
+    <DxDataGrid @ref="@grid"
+                Data="@products"
+                ShowFilterRow="true"
+                VerticalScrollBarMode="@ScrollBarMode.Auto"
+                PageSize="30"
+                VerticalScrollableHeight="300" T="Product">
+
+        <DxDataGridColumn Field="@nameof(Product.ProductName)" Caption="Product Name">
+        </DxDataGridColumn>
+
+        <DxDataGridColumn Field="@nameof(Product.Price)" Caption="Product Price">
+        </DxDataGridColumn>
+
+        <DxDataGridColumn Field="@nameof(Product.Quantity)" Caption="Quantity" Width="85px">
+        </DxDataGridColumn>
+
+        <DxDataGridColumn Field="@nameof(Product.ProductID)" Caption="Basket">
+            <DisplayTemplate>
+                @{
+                    var rowProduct = (context as Product);
+                }
+                <AddToBasket BasketProduct="@rowProduct"></AddToBasket>
+
+            </DisplayTemplate>
+        </DxDataGridColumn>
+    </DxDataGrid>
+}
+@code {
+    DxDataGrid<Product> grid;
+    Product[] products;
+    SearchModel searchModel = new SearchModel();
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await productService.GetProductsAsync();
+    }
+
+    protected async Task StartSearch()
+    {
+        products = await productService.GetProductsAsync(searchModel.SearchString);
+    }
+
+}
+
+

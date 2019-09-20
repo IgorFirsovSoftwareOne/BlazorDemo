@@ -1,0 +1,55 @@
+﻿@page "/Basket"
+@using BlazorDemoPreview9.Data
+@inject BasketService basketService
+
+
+<table class="basket">
+    <caption style="caption-side: top; text-align:center; font-size:x-large"><strong>Basket</strong></caption>
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in basketService.GetBasket())
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Quantity</td>
+                <td>@(string.Format("{0:C}", item.Price))</td>
+                <td>@(string.Format("{0:C}", item.Total))</td>
+            </tr>
+            basketTotal = item.Total + basketTotal;
+        }
+    </tbody>
+    <tfoot>
+        <tr> 
+            <td colspan="3" style="text-align: right">
+                <strong>Total:</strong>
+            </td>
+            <td>
+                @(string.Format("{0:C}", basketTotal))
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+@code {
+    decimal basketTotal = 0;
+
+    protected override void OnInitialized()
+    {
+        basketService.BasketHasChanged += BasketChanged;
+    }
+
+    private void BasketChanged(object sender, EventArgs e)
+    {
+        StateHasChanged();
+    }
+
+}
+
+
